@@ -1,0 +1,105 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+
+.artist-card {
+  flex: calc(33.33% - 20px);
+  position: relative;
+  padding: 20px;
+  transition: all 0.3s;
+  cursor: pointer;
+  min-width: 250px;
+  box-sizing: border-box;
+  max-width: calc(33.33% - 20px); 
+  min-width: calc(33.33% - 20px); 
+  border-width: 2px;
+  border-style: solid;
+  border-color: lightblue;
+}
+
+.artist-card.expanded {
+  flex: 100%;
+  max-width: calc(40%);
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 1;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: rgb(120, 140, 146);
+}
+
+.artist-description {
+  display: none;
+  margin-top: 10px;
+  white-space: pre-wrap;
+}
+
+.artist-card.expanded .artist-description {
+  display: block;
+}
+
+.artist-card a {
+  text-decoration: none;
+  color: black;
+}
+
+.artist-card img {
+  border: 1px solid black;
+  border-radius: 7px;
+}
+
+.artist-card img:hover {
+  transform: scale(1.15);
+  border-radius: 10px;
+  transition: all 0.5s 0s;
+}
+
+@media screen and (max-width: 720px) {
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .card-container .artist-card {
+    flex: calc(50% - 20px);
+    margin: 10px;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .card-container {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 100px;
+  }
+
+  .card-container .artist-card {
+    padding-top: 20px;
+    flex: calc(25% - 20px);
+    margin: 10px;
+  }
+}
+
+#artistName {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.artist-meta {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 40px;
+  margin-top: 15px;
+  color:rgba(0, 0, 0, 0.6);
+  font-size: smaller;
+}
+
+.meta-data {
+  margin-left: 20px;
+}

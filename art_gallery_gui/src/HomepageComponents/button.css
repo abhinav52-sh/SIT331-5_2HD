@@ -1,0 +1,27 @@
+.ButtonCSS {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+    /* box-sizing: border-box;
+    max-width: calc(33.33% - 20px); 
+    min-width: calc(33.33% - 20px);  */
+    display: inline;
+    margin: 100px;
+}
+
+.ButtonCSS button {
+    background-color: rgb(176, 182, 182);
+    color: black;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 100px;
+    margin: 10px 0px;
+    cursor: pointer;
+    border-style: none;
+}
+
+.ButtonCSS button:hover {
+    color: black;
+    background-color: darkgray;
+}

@@ -1,0 +1,52 @@
+.column div {
+    display: flex;
+    align-items: center;
+}
+
+.column div p {
+    margin: 10px;
+}
+
+.column {
+    padding: 0px 100px;
+    padding-right: 120px;
+    padding-top: 20px;
+    flex:33.33%;
+}
+
+.column a {
+    text-decoration: none;
+    color: black;
+}
+
+.column a:hover {
+    color: darkgray;
+}
+
+.column img {
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: all 0.5s .0s;
+}
+
+.row{
+
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.7 ease-in;
+}
+
+.column img:hover{
+    transform: scale(1.15);
+    border-radius: 10px;
+}
+
+#card-author {
+    padding-left: 100px;
+    font-weight: 600;
+}
+
+
+ 

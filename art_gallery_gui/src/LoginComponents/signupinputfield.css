@@ -1,0 +1,16 @@
+.full-input-field {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    margin-top: 25px;
+}
+
+.input-name {
+    width: 140px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.full-input-field Input {
+    width: 400px;
+}

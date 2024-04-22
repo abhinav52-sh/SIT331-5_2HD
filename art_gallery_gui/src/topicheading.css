@@ -1,0 +1,12 @@
+.Heading {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.HeadingText {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}

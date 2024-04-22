@@ -1,0 +1,34 @@
+/* Apply styles to the subscription form container */
+.subscription-form {
+    display: flex;          
+    margin: 20px 0px;              
+    padding: 15px 0px;               
+    margin-top: 100px;
+    background-color: lightgray;  
+}
+
+/* Apply styles to the form label */
+.subscription-form label {
+    font-weight: bold;              
+    font-size: 25px;
+    padding: 0px 10px;
+    padding-left: 350px;
+}
+
+/* Apply styles to the form input */
+.subscription-form input {
+    padding-left: 2px;                   
+    width: 25vw;
+    height: 20px;
+    margin-left: 20px;
+}
+
+/* Apply styles to the form button */
+.subscription-form button {
+    background-color: grey;        
+    color: rgb(20, 18, 18);        
+    padding: 2px 5px;                
+    margin-left: 20px;
+    border: none;                    
+    cursor: pointer;                 
+}

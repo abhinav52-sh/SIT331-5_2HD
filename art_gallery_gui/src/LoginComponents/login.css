@@ -1,0 +1,47 @@
+.login-parent {
+    text-align: center;
+}
+
+.login {
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.signup-link {
+    text-decoration: none;
+    margin-left: 200px;
+    color: rgb(89, 144, 160);
+    font-weight: 700;
+}
+
+.loginText {
+    text-align: left;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.login Input {
+    width: 300px;
+    margin-top: 10px;
+}
+
+.login Button {
+    display: block;
+    padding: 5px 138px;
+    margin-top: 40px;
+    border: none;
+    background-color: rgb(89, 144, 160);
+    color: white;
+    font-size: 15px;
+}
+
+.signup-link:hover {
+    scale: 1.1;
+    color: rgb(45, 154, 255);
+}
+
+.login Button:hover {
+    scale: 1.02;
+    background-color: rgb(45, 154, 255);
+}

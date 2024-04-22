@@ -1,0 +1,31 @@
+.signup-parent {
+    text-align: center;
+    padding: 50px
+}
+
+.signup-parent h1 {
+    font-size: 20px;
+    margin-left: 120px;
+    color: rgb(45, 154, 255);
+}
+
+.sign-up{
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.sign-up Button {
+    width: 405px;
+    margin-left: 140px;
+    margin-top: 40px;
+    padding: 5px;
+    border: none;
+    background-color: rgb(55, 124, 255);
+    color: white;
+    font-size: 15px;
+}
+
+.sign-up Button:hover {
+    scale: 1.02;
+    background-color: rgb(45, 154, 255);
+}
